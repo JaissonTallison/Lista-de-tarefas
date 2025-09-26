@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleTasks - Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 SimpleTasks</h1>
+        
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Digite uma nova tarefa...">
+            <button onclick="addTask()">Adicionar</button>
+        </div>
+
+        <div class="tasks" id="tasksContainer">
+            <div class="empty" id="emptyMessage">
+                Nenhuma tarefa adicionada. Comece agora!
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
